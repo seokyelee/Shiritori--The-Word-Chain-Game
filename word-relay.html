@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A game of shiritori</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="title-box">
+      <h1 class="title">Shiritori -The Word Chain Game</h1>
+      <p class="exple">
+        El shiritori (しりとり/尻取り) es un juego de palabras japonés. Es un
+        juego de palabras encadenadas en que cada jugador debe decir una palabra
+        que empiece por el kana final de la palabra anterior. No se hace
+        distinción entre hiragana y katakana. Ejemplo: La palabra "udon" pierde
+        el juego, pues acaba en una "n" silábica（ん) y las palabras japonesas
+        no pueden empezar por "n" silábica.
+      </p>
+    </section>
+
+    <section class="game-box">
+      <div class="order-per"><span id="order">1</span>º jugador</div>
+      <div class="primera-pal">Palabra:<span id="word"></span></div>
+      <input type="text" />
+      <button>Ingresar</button>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
