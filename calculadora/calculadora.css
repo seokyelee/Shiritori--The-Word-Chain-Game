@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+#result {
+  width: 370px;
+  height: 80px;
+  margin: 5px;
+  text-align: right;
+}
+#operator {
+  width: 120px;
+  height: 80px;
+  margin: 3px;
+  text-align: center;
+}
+button {
+  width: 120px;
+  height: 120px;
+  margin: 3px;
+}
